@@ -11973,4 +11973,19 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+h1, .h1 {
+  font-family: "COMBAT COMBO", sans-serif;
+}
+
+h2, .h2 {
+  font-family: "Merriweather", sans-serif;
+}
+
+h3, .h3 {
+  font-family: "Merriweather", sans-serif;
+}
+
+p {
+  font-family: "Inter", sans-serif;
 }/*# sourceMappingURL=main.css.map */

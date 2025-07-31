@@ -2,14 +2,15 @@
 // Option A: Include all of Bootstrap
 
 // Include any default variable overrides here (though functions won't be available)
-$font-family: 'Future-Earth', sans-serif;                                   
-$font-family: 'Source Sans Pro', sans-serif;
-$font-family: 'Libre Franklin', sans-serif;
+$font-family: 'Funky Juice', sans-serif;
+                                 
+$font-family: 'Cormorant Garamond', sans-serif;
+$font-family: 'Open Sans Light', sans-serif;
 
-$h1: 'Future-Earth', sans-serif;
-$h2: 'Source Sans Pro', sans-serif;
-$h3: 'Source Sans Pro', sans-serif;
-$p: 'Libre Franklin', sans-serif;
+$h1: 'Funky Juice', sans-serif;
+$h2: 'Cormorant Garamond', sans-serif;
+$h3: 'Cormorant Garamond', sans-serif;
+$p: 'Open Sans Light', sans-serif;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 

@@ -2,14 +2,14 @@
 // Option A: Include all of Bootstrap
 
 // Include any default variable overrides here (though functions won't be available)
-$font-family: 'COMBAT COMBO', sans-serif;
-$font-family: 'Merriweather', sans-serif;
-$font-family: 'Inter', sans-serif;
+$font-family: 'Combo-Capital', sans-serif;                                   
+$font-family: 'Lato', sans-serif;
+$font-family: 'Work Sans', sans-serif;
 
-$h1: 'COMBAT COMBO', sans-serif;
-$h2: 'Merriweather', sans-serif;
-$h3: 'Merriweather', sans-serif;
-$p: 'Inter', sans-serif;
+$h1: 'Combo-Capital', sans-serif;
+$h2: 'Lato', sans-serif;
+$h3: 'Lato', sans-serif;
+$p: 'Work Sans', sans-serif;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 

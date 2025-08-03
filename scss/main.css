@@ -11977,19 +11977,49 @@ textarea.form-control-lg {
 h1, .h1 {
   font-family: "Funky Juice", sans-serif;
   color: #1E1E1E;
+  font-size: 3rem;
 }
 
 h2, .h2 {
   font-family: "Cormorant Garamond", sans-serif;
   color: #1E1E1E;
+  font-size: 2rem;
 }
 
 h3, .h3 {
   font-family: "Cormorant Garamond", sans-serif;
   color: #1E1E1E;
+  font-size: 1.75rem;
 }
 
 p {
   font-family: "Open Sans", sans-serif;
   color: #1E1E1E;
+  font-size: 1rem;
+}
+
+.navbar li {
+  font-family: "Cormorant Garamond", sans-serif;
+  color: #1E1E1E;
+  font-size: 1.35rem;
+}
+
+html {
+  background-image: url("/Icons/wallpaper.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body, main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: transparent;
 }/*# sourceMappingURL=main.css.map */

@@ -41,12 +41,48 @@ html {
 }
 
 body, main {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 20px;
     display: flex;
     flex-direction: column;
     align-content: center;
     background-color: transparent;
+    height: 100%;
+}
 
+main {
+    flex: 1;
+}
+
+footer {
+    padding-top: 10px;
+}
+
+
+footer h5 {
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+footer p, footer small {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 2px;
+}
+
+
+.logo {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
 }

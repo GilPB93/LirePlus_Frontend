@@ -12068,6 +12068,7 @@ footer p, footer small, footer .small {
   font-family: "Cormorant Garamond", sans-serif;
   color: #1E1E1E;
   font-size: 1.4rem;
+  font-weight: bold;
 }
 
 .navbar-collapse, .nav-link {

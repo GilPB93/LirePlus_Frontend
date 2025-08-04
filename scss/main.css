@@ -11976,34 +11976,28 @@ textarea.form-control-lg {
 }
 h1, .h1 {
   font-family: "Funky Juice", sans-serif;
-  color: #1E1E1E;
   font-size: 3rem;
 }
 
 h2, .h2 {
   font-family: "Cormorant Garamond", sans-serif;
-  color: #1E1E1E;
   font-size: 2rem;
-  font-weight: bold;
 }
 
 h3, .h3 {
   font-family: "Cormorant Garamond", sans-serif;
-  color: #1E1E1E;
   font-size: 1.75rem;
-  font-weight: bold;
 }
 
 p {
   font-family: "Open Sans", sans-serif;
-  color: #1E1E1E;
   font-size: 1rem;
 }
 
-.navbar li {
-  font-family: "Cormorant Garamond", sans-serif;
-  color: #1E1E1E;
-  font-size: 1.35rem;
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -12015,31 +12009,25 @@ html {
   background-attachment: fixed;
 }
 
-.wallpaper {
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-
-body, main {
-  max-width: 1000px;
-  margin: 0 auto;
+body {
   display: flex;
   flex-direction: column;
-  align-content: center;
+  min-height: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
   background-color: transparent;
-  height: 100%;
+  padding: 10px;
 }
 
 main {
-  flex: 1;
+  flex: 1 0 auto;
   margin-bottom: 40px;
+  margin-top: 20px;
 }
 
 footer {
-  padding-top: 10px;
+  flex-shrink: 0;
+  margin-top: 10px;
 }
 
 footer h5, footer .h5 {
@@ -12067,4 +12055,15 @@ footer p, footer small, footer .small {
   width: 30px;
   height: 30px;
   margin: 5px;
+}
+
+.navbar li {
+  font-family: "Cormorant Garamond", sans-serif;
+  color: #1E1E1E;
+  font-size: 1.4rem;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: flex-end;
 }/*# sourceMappingURL=main.css.map */

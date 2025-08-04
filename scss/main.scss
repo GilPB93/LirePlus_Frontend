@@ -1,96 +1,141 @@
 @import "custom";
 
 h1 {
-    font-family: 'Funky Juice', sans-serif;
-    font-size: 3rem;
+  font-family: 'Funky Juice', sans-serif;
+  font-size: 3rem; 
 }
 
 h2 {
-    font-family: 'Cormorant Garamond', sans-serif;
-    font-size: 2rem;
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 h3 {
-    font-family: 'Cormorant Garamond', sans-serif;
-    font-size: 1.75rem;
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-size: 1.75rem;
+  font-weight: bold;
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
 }
 
 html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    width: 100%;
-    height: 100%;
-    background-image: url('/Icons/wallpaper.png');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: url('/Icons/wallpaper.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
-    background-color: transparent;
-    padding: 10px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: transparent;
+  padding: 10px;
 }
 
 main {
-    flex: 1 0 auto;
-    margin-bottom: 40px;
-    margin-top: 20px;
+  flex: 1 0 auto; //
+  margin-bottom: 40px;
+  margin-top: 10px;
+  position: relative;
+}
+
+header {
+  position: relative;
 }
 
 footer {
-    flex-shrink: 0;
-    margin-top: 10px;
+  flex-shrink: 0;
+  margin-top: 10px;
 }
 
 footer h5 {
-    font-family: 'Cormorant Garamond', sans-serif;
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding: 0;
-    margin-bottom: 5px;
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0;
+  margin-bottom: 5px;
 }
 
 footer p, footer small {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.8rem;
-    margin: 0;
-    padding: 2px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8rem;
+  margin: 0;
+  padding: 2px;
 }
 
-
 .logo {
-    width: 120px;
-    height: 120px;
-    border-radius: 20px;
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
 }
 
 .social-icon {
-    width: 30px;
-    height: 30px;
-    margin: 5px;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
 }
 
 .navbar li {
-    font-family: 'Cormorant Garamond', sans-serif;
-    color: $font-color;
-    font-size: 1.4rem;
+  font-family: 'Cormorant Garamond', sans-serif;
+  color: $font-color;
+  font-size: 1.4rem;
 }
 
 .navbar-collapse{
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
+
+// SIGNUP PAGE
+.form-label{
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-size: 1.5rem;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.signup-submit{
+  margin-top: 20px;
+  align-content: center;
+  display: flex;
+}
+.signup-submit .cta:before{
+  background-color: $primary;
+}
+.redirect-signin{
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8rem;
+}
+.passwordNeeds{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8rem;
+  margin: 0 0 0 5px;
+}
+
+.form-control{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+} 
+
+.signup-box {
+  margin-bottom: 20px;
+}
+
+

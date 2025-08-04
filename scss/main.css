@@ -12070,7 +12070,7 @@ footer p, footer small, footer .small {
   font-size: 1.4rem;
 }
 
-.navbar-collapse {
+.navbar-collapse, .nav-link {
   display: flex;
   justify-content: flex-end;
 }
@@ -12092,7 +12092,7 @@ footer p, footer small, footer .small {
   background-color: #0d6efd;
 }
 
-.redirect-signin {
+.redirect-signin, .redirect-signup {
   color: black;
   font-family: "Open Sans", sans-serif;
   font-size: 0.8rem;
@@ -12112,4 +12112,9 @@ footer p, footer small, footer .small {
 
 .signup-box {
   margin-bottom: 20px;
+}
+
+.signin-form-input, .signup-form-input {
+  max-width: 700px;
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */

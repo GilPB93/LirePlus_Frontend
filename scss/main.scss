@@ -108,32 +108,20 @@ header, .navbar {
 }
 
 .nav-link {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.05rem;
+  font-family: 'cormorant Garamond', serif;
+  font-size: 1.2rem;
   font-weight: bold;
+  color: $font-color;
 }
 
-.right-tools .nav-link:hover {
-  color: #000;
-  text-decoration: none;
-}
-
-/* Icônes */
 .nav-icon {
   width: 24px;
   height: 24px;
   margin-right: 8px;
 }
 
-/* Liens du menu (gauche) */
 .navbar-nav .nav-link {
-  font-family: 'Open Sans', sans-serif;
-  color: #333;
   padding: 0.45rem 0.75rem;
-}
-
-.navbar-nav .nav-link:hover {
-  color: #000;
 }
 
 .navbar-collapse {
@@ -150,7 +138,6 @@ header, .navbar {
   font-weight: bold;
 }
 
-/* Footer (inchangé) */
 footer {
   flex-shrink: 0;
   margin-top: 10px;
@@ -160,6 +147,10 @@ footer {
   justify-content: center;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+footer .container-fluid {
+  max-width: 1600px;
 }
 
 .logo-footer {

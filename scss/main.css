@@ -12053,11 +12053,10 @@ header, .navbar {
 }
 
 /* Logo */
-.logo {
-  width: 120px;
-  height: 120px;
-  border-radius: 20px;
+.logo, .logo-footer {
   display: block;
+  width: auto;
+  height: 80px;
 }
 
 .brand-center {
@@ -12127,8 +12126,6 @@ footer .container-fluid, footer .container-sm, footer .container-md, footer .con
 }
 
 .logo-footer {
-  border-radius: 20px;
-  display: block;
   margin: 0 auto;
 }
 

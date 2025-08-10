@@ -12191,4 +12191,14 @@ footer p, footer small, footer .small {
 .signin-form-input, .signup-form-input {
   max-width: 700px;
   margin: 0 auto;
+}
+
+.shelf-home {
+  border: 5px solid;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book_home {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
 }/*# sourceMappingURL=main.css.map */

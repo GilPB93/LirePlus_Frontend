@@ -281,3 +281,31 @@ footer p, footer small {
     background-color: darken($danger, 5%);
   }
 }
+
+
+
+// USER HOME PAGE
+.user-book-request, .user-message {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  background-color: $color2;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.user-book-request button, .user-message button {
+  background-color: $primary;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  margin: 10px auto;
+
+  &:hover {
+    background-color: darken($primary, 10%);
+  }
+}

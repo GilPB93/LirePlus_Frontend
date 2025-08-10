@@ -12250,4 +12250,28 @@ footer p, footer small, footer .small {
 }
 .btn-delete-account:hover {
   background-color: rgb(210.9493670886, 36.5506329114, 53.2594936709);
+}
+
+.user-book-request, .user-message {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  background-color: #AAA492;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.user-book-request button, .user-message button {
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  margin: 10px auto;
+}
+.user-book-request button:hover, .user-message button:hover {
+  background-color: rgb(1.762295082, 87.2336065574, 213.237704918);
 }/*# sourceMappingURL=main.css.map */

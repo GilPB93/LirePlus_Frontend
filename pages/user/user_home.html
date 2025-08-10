@@ -1,0 +1,91 @@
+<div class="carousel-comments d-flex justify-content-evenly align-items-center">
+    <img src="/icons/previous.png" alt="Flèche précédente" height="50" width="50" class="arrow">
+    <img src="/img_book/07.jpg" alt="Couverture 1984" height="200" width="auto" class="book_home">
+    <img src="/img_book/14.jpg" alt="Couverture Fahrenheit 451" height="200" width="auto" class="book_home">
+    <img src="/img_book/27.jpg" alt="Couverture Crime et Châtiment" height="200" width="auto" class="book_home">
+    <img src="/img_book/34.jpg" alt="Couverture Madame Bovary" height="200" width="auto" class="book_home">
+    <img src="/img_book/50.jpg" alt="Couverture L'Ile au trésor" height="200" width="auto" class="book_home">
+    <img src="/icons/next.png" alt="Flèche suivante" height="50" width="50" class="arrow">
+</div>
+
+<hr>
+
+<div class="row">
+    <div class="col">
+        <div class="d-flex flex-column align-items-center">
+            <img src="/img_book/07.jpg" alt="Couverture 1984" height="300" width="auto" class="book_home">
+            <h2>Lecture en cours...</h2>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="d-flex flex-column align-items-center">
+            <h2>Mes préférences</h2>
+            <ul>
+                <li>
+                    <button>Ma Bibliothèque</button>
+                </li>
+                <li>
+                    <button>En cours de lecture</button>
+                </li>
+                <li>
+                    <button>Lu</button>
+                </li>
+                <li>
+                    <button>A lire</button>
+                </li>
+                <li>
+                    <button>Recherche</button>
+                </li>
+                <li>
+                    <button>Mes commentaires</button>
+                </li>
+                <li>
+                    <button>Mon compte</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<div class="row">
+    <div class="col-12 col-lg-6">
+        <div class="d-flex flex-column align-items-center">
+            <h3>Envoyer une demande de nouveau livre</h3>
+            <div class="user-book-request">
+                <form id="book-request-form">
+                    <div>
+                        <label class="form-label" for="book-title">Titre du livre :</label>
+                        <input class="form-control" type="text" id="book-title" name="book-title" required>
+                    </div>
+                    <div>
+                        <label class="form-label" for="book-author">Auteur :</label>
+                        <input class="form-control" type="text" id="book-author" name="book-author" required>
+                    </div>
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-lg-6 order-2">
+        <div class="d-flex flex-column align-items-center">
+            <h3>Laisser un message à l'équipe LirePlus</h3>
+            <div class="user-message">
+                <form id="message-form">
+                    <div>
+                        <label class="form-label" for="subject">Objet :</label>
+                        <input class="form-control" type="text" id="subject" name="subject" required>
+                    </div>
+                    <div>
+                        <label class="form-label" for="message">Votre message :</label>
+                        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

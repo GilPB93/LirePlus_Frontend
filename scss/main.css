@@ -11987,7 +11987,13 @@ h2, .h2 {
 
 h3, .h3 {
   font-family: "Cormorant Garamond", sans-serif;
-  font-size: 1.75rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+h4, .h4 {
+  font-family: "Cormorant Garamond", sans-serif;
+  font-size: 1.4rem;
   font-weight: bold;
 }
 
@@ -12017,7 +12023,6 @@ main {
   padding: 1rem;
   margin: 10px 0 10px;
   display: flex;
-  justify-content: center;
   flex-direction: column;
 }
 
@@ -12181,7 +12186,7 @@ footer p, footer small, footer .small {
 .form-control {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
 }
 
 .form-box {
@@ -12196,9 +12201,53 @@ footer p, footer small, footer .small {
 .shelf-home {
   border: 5px solid;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.75);
 }
 
 .book_home {
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.75);
+}
+
+.avatar {
+  flex-direction: column;
+}
+
+.avatar button {
+  margin: 10px;
+}
+
+.user-avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 10px;
+  box-shadow: 0 8px 12px rgb(0, 0, 0);
+}
+
+.info_perso {
+  max-width: 1000px;
+  background-color: #AAA492;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.75);
+}
+
+.delete-account {
+  margin-bottom: 10px;
+}
+
+.btn-delete-account {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin: auto;
+}
+.btn-delete-account:hover {
+  background-color: rgb(210.9493670886, 36.5506329114, 53.2594936709);
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,55 @@
+<div>
+    <h1>Mon Compte</h1>
+    <h2>Ici tu pourras modifier tes informations personnelles (avatar, pseudo, email, mot de passe).</h2>
+</div>
+
+<div class="container-fluid row info_perso d-flex justify-content-center">
+    <h3>Informations Personnelles</h3>
+    <p>Tu peux modifier tes informations personnelles ici. Assure-toi que tout est à jour pour une meilleure expérience.</p>
+
+    <div class="avatar col order-1 order-lg-2 d-flex align-items-center">
+        <img src="/avatar/32.png" alt="User avatar" class="user-avatar">
+        <div class="avatar-actions">
+            <button class="btn btn-primary">Changer Avatar</button>
+        </div>
+    </div>
+
+
+    <div class="col order-2 order-lg-1">
+        <div class="form-container ms-4">
+            <div class="form-box">
+                <h4>Nom</h4>
+                <input class="form-control" type="text" value="Utilisateur123" disabled>
+            </div>
+            <div class="form-box">
+                <h4>Prenom</h4>
+                <input class="form-control" type="text" value="Utilisateur" disabled>
+            </div>
+            <div class="form-box">
+                <h4>Pseudo</h4>
+                <input class="form-control" type="text" value="Utilisateur123" disabled>
+                <small class="d-flex justify-content-end">Changer</small> <!-- Ajouter un pop-in pour modifier le pseudo -->
+            </div>
+            <div class="form-box">
+                <h4>Email</h4>
+                <input class="form-control" type="text" value="utilisateur123@example.com" disabled>
+                <small class="d-flex justify-content-end">Changer</small> <!-- Ajouter un pop-in pour modifier l'email -->
+            </div>
+            <div class="form-box">
+                <h4>Mot de passe</h4>
+                <input class="form-control" type="text" value="********" disabled>
+                <small class="d-flex justify-content-end">Changer</small> <!-- Ajouter un pop-in pour modifier le mot de passe -->
+            </div>
+            <div class="form-box">
+                <h4>Anniversaire</h4>
+                <input class="form-control" type="text" value="01/01/2000" disabled>
+            </div>
+        </div>
+    </div>
+    <div class="delete-account d-flex flex-column order-3 order-lg-3">
+        <hr>
+        <h3>Supprimer Compte</h3>
+        <p>Si tu souhaites supprimer ton compte, clique sur le bouton ci-dessous. Cette action est irréversible.</p>
+        <button class="btn btn-delete-account">Supprimer mon compte</button>
+    </div>
+</div>

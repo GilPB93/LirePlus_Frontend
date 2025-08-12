@@ -83,7 +83,6 @@ header, .navbar {
   flex-direction: column;
 }
 
-/* Logo */
 .logo, .logo-footer {
   display: block;
   width: auto;
@@ -111,11 +110,34 @@ header, .navbar {
   padding: 0.25rem 0;
 }
 
-.nav-link {
+.nav-link, .nav-item {
   font-family: 'cormorant Garamond', serif;
   font-size: 1.2rem;
   font-weight: bold;
-  color: $font-color;
+  position: relative;
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link::after, .nav-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(90deg, #ff6b6b, #fddb92);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover, .nav-item:hover {
+  color: #ff6b6b;
+}
+
+.nav-link:hover::after, .nav-item:hover::after {
+  width: 100%;
 }
 
 .nav-icon {
@@ -195,6 +217,10 @@ footer p, footer small {
   transition: all 0.5s ease-in-out;
 }
 
+// NAVBAR BUTTON STYLES
+
+
+// GENERAL BUTTON STYLES
 .btn-txt {
   z-index: 1;
   font-weight: 800;

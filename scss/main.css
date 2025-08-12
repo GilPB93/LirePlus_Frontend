@@ -12224,8 +12224,8 @@ footer p, footer small, footer .small {
 .form-label {
   font-family: "Cormorant Garamond", sans-serif;
   font-size: 1.5rem;
-  margin-top: 0;
   font-weight: bold;
+  margin: 0;
 }
 
 .signup-submit {

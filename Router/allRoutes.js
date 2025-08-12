@@ -12,7 +12,9 @@ export const allRoutes = [
     new Route("/how_to", "Comment ça marche ?", "/pages/how_to.html"),
     new Route("/account", "Mon Compte", "/pages/user/account.html"),
     new Route("/userhome", "Page d'accueil", "/pages/user/user_home.html"),
-    new Route("/userlibrary", "Ma Bibliothèque", "/pages/user/user_library.html")
+    new Route("/userlibrary", "Ma Bibliothèque", "/pages/user/user_library.html"),
+    new Route("/userbookdone", "Mes livres lus", "/pages/user/user_bookdone.html"),
+    
 
 ];
 

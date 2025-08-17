@@ -12401,7 +12401,8 @@ footer p, footer small, footer .small {
 
 .book-list {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 20px auto;
+  display: block;
 }
 
 .book-list ul {
@@ -12498,7 +12499,7 @@ footer p, footer small, footer .small {
 
 @media (min-width: 450px) {
   .book-list ul {
-    margin: 100px 40px;
+    margin: 150px 40px;
   }
 }
 @media (min-width: 600px) {
@@ -12578,4 +12579,16 @@ footer p, footer small, footer .small {
 
 .error-page button {
   margin: 10px;
+}
+
+.search-results {
+  padding: 5px;
+  margin-bottom: 120px;
+}
+
+.search-form {
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */

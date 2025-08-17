@@ -566,4 +566,16 @@ footer p, footer small {
   }
 }
 
+// 404 PAGE
+.error-page {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
+.error-page button {
+  margin: 10px;
+}

@@ -12528,4 +12528,16 @@ footer p, footer small, footer .small {
   .book-list li:nth-child(14n-6) {
     grid-column-start: 2;
   }
+}
+.error-page {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.error-page button {
+  margin: 10px;
 }/*# sourceMappingURL=main.css.map */

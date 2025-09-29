@@ -1,0 +1,33 @@
+<h1 class="text-center">
+    Bienvenue sur la page du personnel
+</h1>
+
+<div class="d-flex row align-items-center">
+    <div class="col d-flex justify-content-center statsboard">
+        <div class="d-flex flex-column">
+            <h1 >Statistiques</h1>
+            <ul>
+                <li><strong>Nombre total d'utilisateurs : </strong>{{ total_users }}</li>
+                <li><strong>Nombre total de livres : </strong>{{ total_books }}</li>
+                <li><strong>Messages en attente de réponse : </strong>{{ total_messages_attente }}</li>
+                <li><strong>Demandes en attente de traitement : </strong>{{ total_demandes_attente }}</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="col d-flex align-items-center flex-column gap-2">
+        <a href="#">
+            <button class="button type1"><span class="btn-text">Gérer les demandes</span></button>
+        </a>
+        <a href="#">
+            <button class="button type1"><span class="btn-text">Gérer les avis</span></button>
+        </a>
+        <a href="#">
+            <button class="button type1"><span class="btn-text">Nouveau livre</span></button>
+        </a>
+        <a href="#">
+            <button class="button type1"><span class="btn-text">Gérer le personnel</span></button>
+        </a>
+    </div>
+</div>

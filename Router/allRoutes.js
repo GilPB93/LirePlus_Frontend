@@ -17,6 +17,7 @@ export const allRoutes = [
     new Route("/userbooktoread", "Mes livres à lire", "/pages/user/user_booktoread.html"),
     new Route("/search", "Recherche", "/pages/search.html"),
     new Route("/staffhome", "Page du personnel", "/pages/staff/staff_home.html"),
+    new Route("/adminhome", "Page de l'administrateur", "/pages/admin/admin_home.html"),
 
 
 ];

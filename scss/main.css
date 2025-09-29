@@ -12261,7 +12261,6 @@ footer p, footer small, footer .small {
   margin: 0 auto;
 }
 
-/* ====== NOUVEAU STYLE INPUT ====== */
 .form-control {
   --input-focus: #2d8cf0;
   --font-color: #323232;
@@ -12383,6 +12382,11 @@ footer p, footer small, footer .small {
 }
 .user-book-request button:hover, .user-message button:hover {
   background-color: rgb(1.762295082, 87.2336065574, 213.237704918);
+}
+
+.userpref {
+  display: flex;
+  align-items: flex-end;
 }
 
 :root {
@@ -12598,6 +12602,7 @@ footer p, footer small, footer .small {
   margin: 5px;
   max-width: 700px;
   width: 100%;
-  background-color: #dc3545;
+  background-color: #AAA492;
   border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.75);
 }/*# sourceMappingURL=main.css.map */

@@ -2,15 +2,15 @@
     Bienvenue sur la page du personnel
 </h1>
 
-<div class="d-flex row">
+<div class="d-flex row align-items-center">
     <div class="col d-flex justify-content-center statsboard">
         <div class="d-flex flex-column">
             <h1 >Statistiques</h1>
             <ul>
-                <li>Nombre total d'utilisateurs : {{ total_users }}</li>
-                <li>Nombre total de livres : {{ total_books }}</li>
-                <li>Messages en attente de réponse : {{ total_messages_attente }}</li>
-                <li>Demandes en attente de traitement : {{ total_demandes_attente }}</li>
+                <li><strong>Nombre total d'utilisateurs : </strong>{{ total_users }}</li>
+                <li><strong>Nombre total de livres : </strong>{{ total_books }}</li>
+                <li><strong>Messages en attente de réponse : </strong>{{ total_messages_attente }}</li>
+                <li><strong>Demandes en attente de traitement : </strong>{{ total_demandes_attente }}</li>
             </ul>
         </div>
 
@@ -18,13 +18,13 @@
 
     <div class="col d-flex align-items-center flex-column gap-2">
         <a href="#">
-            <button class="button type1"><span class="btn-text">Gérer les utilisateurs</span></button>
+            <button class="button type1"><span class="btn-text">Gérer les demandes</span></button>
         </a>
         <a href="#">
-            <button class="button type1"><span class="btn-text">Gérer les livres</span></button>
+            <button class="button type1"><span class="btn-text">Gérer les avis</span></button>
         </a>
         <a href="#">
-            <button class="button type1"><span class="btn-text">Gérer les messages</span></button>
+            <button class="button type1"><span class="btn-text">Nouveau livre</span></button>
         </a>
     </div>
 </div>

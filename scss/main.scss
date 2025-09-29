@@ -291,7 +291,6 @@ footer p, footer small {
   margin: 0 auto;
 }
 
-/* ====== NOUVEAU STYLE INPUT ====== */
 .form-control {
   --input-focus: #2d8cf0;
   --font-color: #323232;
@@ -416,6 +415,11 @@ footer p, footer small {
   &:hover {
     background-color: darken($primary, 10%);
   }
+}
+
+.userpref{
+  display: flex;
+  align-items: flex-end;
 }
 
 
@@ -636,6 +640,7 @@ footer p, footer small {
   margin: 5px;
   max-width: 700px;
   width: 100%;
-  background-color: #dc3545;
+  background-color: $color2;
   border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.75);
 }
